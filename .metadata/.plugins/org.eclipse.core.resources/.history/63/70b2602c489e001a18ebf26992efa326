@@ -1,0 +1,4 @@
+driver=oracledriver
+url=oracle url
+user=admin
+password=admin

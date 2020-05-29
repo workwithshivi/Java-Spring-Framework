@@ -1,0 +1,15 @@
+	<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+			<!-- AUTOWIRE byType -->
+<beans>
+<bean id="e1" class="beans.Engine">
+	<property name="model" value="2014"/>
+</bean>
+
+<bean id="e2" class="beans.Engine" autowire-candidate="false">
+	<property name="model" value="2018"/>
+</bean>
+
+<bean id="b" class="beans.Bus" autowire="constructor"/>
+</beans>

@@ -1,0 +1,17 @@
+package beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+
+public class Car {
+	@Autowired
+	private Engine engine;
+	// no need to haveany setter or constructor
+	
+	public void printData()
+	{
+
+		System.out.println("Car model year:"+engine.getModel());
+	}
+
+}

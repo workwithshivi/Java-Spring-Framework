@@ -1,0 +1,13 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<!-- ORACLE CONNECTION -->
+	<bean id="t" class="beans.Test" dependency-check="simple">
+<property name="driver" value="oracle.jdbc.OracleDriver"/>
+<property name="url" value="jdbc:oracvle:thin:@localhost:5432:xe"/>
+<property name="userName" value="admin"/>
+<property name="password" value="admin"/>
+	</bean>
+
+</beans>

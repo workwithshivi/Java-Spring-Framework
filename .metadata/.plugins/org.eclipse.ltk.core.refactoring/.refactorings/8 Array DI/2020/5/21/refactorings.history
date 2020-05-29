@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;8 Array DI/src/res/sprimg.xml&apos; to &apos;spring.xml&apos;" description="Rename resource &apos;sprimg.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/res/sprimg.xml" name="spring.xml" stamp="1589821398596" updateReferences="true"/>
+</session>

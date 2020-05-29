@@ -1,0 +1,25 @@
+package beans;
+
+public class Bus {
+	private Engine engine;
+	
+	public Bus() {
+		System.out.println("Bus Default constructor");
+	}
+	
+	
+	public Bus(Engine engine) {
+		System.out.println("Bus parameterise constructor");
+		this.engine=engine;
+	}
+	
+	
+	public void setEngine(Engine engine) {
+		this.engine = engine;
+	}
+public void printData() {
+	System.out.println("Bus model year:"+engine.getModel());
+	
+}
+
+}

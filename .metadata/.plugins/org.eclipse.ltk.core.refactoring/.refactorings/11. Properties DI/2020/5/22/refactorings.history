@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 packages to &apos;12. Properties DI from File/src&apos;&#x0D;&#x0A;- Original project: &apos;11. Properties DI&apos;&#x0D;&#x0A;- Destination element: &apos;12. Properties DI from File/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     11. Properties DI/src/beans&#x0D;&#x0A;     11. Properties DI/src/resources&#x0D;&#x0A;     11. Properties DI/src/test" description="Copy packages" destination="=12. Properties DI from File/src" element1="/src&lt;beans" element2="/src&lt;resources" element3="/src&lt;test" flags="589830" fragments="3" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1590383477623" version="1.0"/>
+</session>
