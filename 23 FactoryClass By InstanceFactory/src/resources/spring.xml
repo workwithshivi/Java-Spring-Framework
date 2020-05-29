@@ -1,0 +1,15 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+
+	<bean id="cf" class="bean.CarFactory">
+		<property name="carName" value="bean.Audi"></property>
+	</bean>
+	<!-- simply we can gat Car class object via this we need to configure cause 
+		there is no static in Car -->
+		
+	<!-- NON STATIC FACTORY METHOD CONFIGURATION -->
+	<bean id="c" factory-bean="cf" factory-method="getRefrence"></bean>
+</beans>
