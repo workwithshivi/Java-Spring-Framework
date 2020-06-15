@@ -1,8 +1,2 @@
 INDEX VERSION 1.4+D:\Programming\Java\SPRING GITHUB\Java-Spring-Framework\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-133850156.index
-300698586.index
-51353379.index
-1938820918.index
-1499761516.index
-290911625.index
-1831924411.index
+945928171.index
