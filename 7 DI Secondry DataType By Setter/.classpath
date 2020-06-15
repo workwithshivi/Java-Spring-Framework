@@ -6,12 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/commons-pool-1.5.4.jar"/>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/spring-aop-4.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/spring-beans-4.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/spring-context-4.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/spring-core-4.0.3.RELEASE.jar"/>
-	<classpathentry kind="lib" path="D:/shivam/java/jar files/Spring Old jar/spring-expression-4.0.3.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/IOC JARs"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

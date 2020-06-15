@@ -19,7 +19,6 @@
 <fullyQualifiedTypeName name="com.shivi.beans.car.Car"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.config.MethodInvokingBean"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.lang.CloneNotSupportedException"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.config.MethodInvokingFactoryBean"/>
 <fullyQualifiedTypeName name="bean.Car"/>
@@ -52,4 +51,5 @@
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="beans.ConnectionPool"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
 </qualifiedTypeNameHistroy>
