@@ -1,0 +1,19 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<!-- default handler mapping -->
+	<!-- Handler -->
+	<bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
+
+	<!-- Controller configuration -->
+	<bean name="/hello.htm" class="controller.HelloController" />
+
+	<!-- View Resolver -->
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />  <!-- '/' is used for default location -->
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+
+</beans>

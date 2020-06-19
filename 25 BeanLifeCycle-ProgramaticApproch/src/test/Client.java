@@ -43,6 +43,7 @@ public class Client {
 			default:
 				throw new IllegalArgumentException("Unexpected value: " + i);
 			}
+			sc.close();
 
 		}
 	}
