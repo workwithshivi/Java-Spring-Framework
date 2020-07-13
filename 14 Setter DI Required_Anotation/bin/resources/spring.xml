@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<!-- POSTGRE CONNECTION -->
+	<bean id="t" class="beans.Test"> <!-- @Required is used in beans.Test so nop need to add dependency-checking attribute -->
+<property name="driver" value="org.postgresql.Driver"/>
+<property name="url" value="jdbc:postgresql://localhost:5432/postgres"/>
+<property name="userName" value="postgres"/>
+<property name="password" value="74484"/>
+	</bean>
+</beans>
