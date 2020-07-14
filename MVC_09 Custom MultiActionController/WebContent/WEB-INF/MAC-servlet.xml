@@ -1,0 +1,32 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/empsave.htm">EmpCurd</prop>
+				<prop key="/empupdate.htm">EmpCurd</prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean id="EmpCurd" class="controller.EmpCurdController">
+		<property name="methodNameResolver">
+			<bean
+				class="org.springframework.web.servlet.mvc.multiaction.InternalPathMethodNameResolver">
+				<property name="prefix" value="Shivi"></property>
+				<property name="suffix" value="CURD"></property>
+			</bean>
+		</property>
+	</bean>
+	<!-- View Resolver -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/" />  <!-- '/' is used for default location -->
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+
+</beans>
