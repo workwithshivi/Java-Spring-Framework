@@ -1,0 +1,25 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="bds" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource">
+		<property name="driverClassName"
+			value="org.postgresql.Driver" />
+		<property name="url"
+			value="jdbc:postgresql://localhost:5432/postgres" />
+		<property name="username" value="postgres" />
+		<property name="password" value="74484" />
+		<property name="maxActive" value="15" />
+		<property name="minIdle" value="5" />
+		<property name="maxWait" value="5000" />
+	</bean>
+
+	<bean id="dao" class="DAO.StudentDAOImpl_JDBC">
+		<property name="ds" ref="bds" />
+	</bean>
+
+	<bean id="bo" class="business.StudentBOImpl">
+		<property name="sDao" ref="dao"></property>	
+	</bean>
+
+</beans>
+
