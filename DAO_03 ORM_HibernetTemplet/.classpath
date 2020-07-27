@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/postgraeSql"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/spring-3 IOC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringJDBC"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/spring-orm-3.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/cglib-3.2.6.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/jar files/Spring Old jar/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

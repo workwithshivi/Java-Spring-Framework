@@ -6,6 +6,7 @@ import org.apache.tomcat.dbcp.dbcp.BasicDataSource;
 
 public class Test {
 	public static void main(String[] args) {
+
 		BasicDataSource bds = new BasicDataSource();
 		bds.setDriverClassName("org.postgresql.Driver");
 		bds.setUrl("jdbc:postgresql://localhost:5432/postgres");
